@@ -47,5 +47,13 @@ delka2=delka;
     for (int j = delka2 - 1; j >= 0; j--) {
         printf("%c", str1[j]);
     }
+i=0;
+while (str3[i] != '\0') {
+if (str3[i] >= 'a' && str3[i] <= 'z') {
+        str3[i] = str3[i] - ('a' - 'A');
+        }
+        i++;
+    }
+    printf("\n Kopie 2. retezce s velkymi pismeny: %s\n", str3);
             return 0;
         }
